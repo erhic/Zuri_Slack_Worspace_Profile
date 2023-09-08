@@ -3,10 +3,11 @@ getUTCMilliseconds();
 
 function getInfo() {
   // window html-body element to display slack name
-  document.getElementById("slackUserName").innerHTML += "<p>Eric Ngugi</p>";
+  document.getElementById("slackUserName").innerHTML +=
+    "<p> Name: Eric Ngugi</p>";
 
   // window html-body element to display myTrack
-  document.getElementById("myTrack").innerHTML += "<p>Frontend</p>";
+  document.getElementById("myTrack").innerHTML += "<p> Track: Frontend</p>";
 
   // window html-body element to link to github repo containing this source code
   document.getElementById(
@@ -30,7 +31,9 @@ function currentDayOfTheWeek() {
 
   const d = new Date();
   let day = weekday[d.getDay()];
-  document.getElementById("currentDayOfTheWeek").innerHTML += `<p>${day}<p>`;
+  document.getElementById(
+    "currentDayOfTheWeek"
+  ).innerHTML += `<p>Weekday: ${day}<p>`;
 }
 
 /**
@@ -42,5 +45,5 @@ function getUTCMilliseconds() {
   let milliseconds = d.getUTCMilliseconds();
   document.getElementById(
     "currentUTCTime"
-  ).innerHTML += `<p>${milliseconds}<p>`;
+  ).innerHTML += `<p>Milliseconds (UTC) ${milliseconds}<p>`;
 }
