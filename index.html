@@ -9,46 +9,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="getInfo()">
+  <div id="main_container">
+
+    <div id="slackUserName">
+      <!-- slack name container -->
+    </div>
+
+    <div class="slackDisplayImage">
+      <!-- slack image container -->
+      <img src="https://ca.slack-edge.com/T05FFAA91JP-U05R7JBNY8M-7cf737383007-512" width="100px" height="100px" alt=""
+        srcset="">
+    </div>
+
+    <div class="currentDayOfTheWeek">
+
+    </div>
 
 
-  <div>
+    <div class="currentUTCTime">
 
-    <h3>Users</h3>
+    </div>
 
-    <ul></ul>
+    <div class="myTrack">
 
+    </div>
+    <div class="githubURL">
+
+    </div>
   </div>
-  <button id="button">Click me to get Data</button>
-
-  <div class="slackUserName">
-
-  </div>
-
-  <div class="slackDisplayImage">
-
-  </div>
-
-  <div class="currentDayOfTheWeek">
-
-  </div>
-
-
-  <div class="currentUTCTime">
-
-  </div>
-
-  <div class="myTrack">
-
-  </div>
-  <div class="githubURL">
-
-  </div>
-
 
   <!-- added link to js script file , make site dynamic-->
 
 
   <script src="script.js"></script>
+
+
+</body>
 
 </html>
