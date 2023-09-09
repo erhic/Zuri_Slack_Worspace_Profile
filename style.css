@@ -4,17 +4,21 @@
   margin: 0;
   background-color: rgb(252, 252, 252);
 }
-
-#slackUserName ,.slackDisplayImage{
-  display: flex;
-  padding: 2%;
-  display: block;
- 
+img{
+  
 }
 div{
   font-weight: bold;
 }
-
+p{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(244, 248, 248);
+}
+p:hover{
+  transform: scale(1.2);
+}
+a
 #maincontainer{
   border: 5px solid lavenderblush;
   position: absolute;
@@ -25,7 +29,6 @@ div{
   background-color: #ffff;
 }
 #githubURL{
-text-decoration-line: none;
  padding: 3%;
  margin-top: 2%;
  background-color: rgb(199, 199, 199);
@@ -34,9 +37,4 @@ text-decoration-line: none;
  justify-content: center;
  display: flex;
 }
-body{
-  background-color: black;
-}
-span{
-  padding: 2%;
-}
+
