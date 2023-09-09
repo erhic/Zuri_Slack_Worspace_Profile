@@ -4,9 +4,7 @@
   margin: 0;
   background-color: rgb(252, 252, 252);
 }
-img{
-  
-}
+
 div{
   font-weight: bold;
 }
@@ -18,7 +16,7 @@ p{
 p:hover{
   transform: scale(1.2);
 }
-a
+
 #maincontainer{
   border: 5px solid lavenderblush;
   position: absolute;
