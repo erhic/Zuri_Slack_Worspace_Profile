@@ -10,13 +10,18 @@ div{
 }
 p{
   display: flex;
-  justify-content: center;
+ justify-content: center;
   background-color: rgb(244, 248, 248);
 }
 p:hover{
   transform: scale(1.2);
+  
 }
-
+img{
+  border-radius: 5% ;
+  border: 1px solid rgb(248, 247, 246);
+  transform: scale(0.5);
+}
 #maincontainer{
   border: 5px solid lavenderblush;
   position: absolute;
